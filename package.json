@@ -1,0 +1,15 @@
+{
+  "name": "mostruario-carrinhos-madeira",
+  "version": "1.0.0",
+  "description": "Mostruário estático para a matéria da faculdade - Carrinhos de Madeira.",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "vercel",
+    "mostruario"
+  ]
+}

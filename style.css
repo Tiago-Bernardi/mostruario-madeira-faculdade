@@ -1,0 +1,102 @@
+/* Estilo Base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #8b4513; /* Marrom Madeira */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cabecalho h1 {
+    margin-bottom: 5px;
+}
+
+.cabecalho p {
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Mostruário (Grid) */
+.mostruario {
+    display: grid;
+    /* 2 colunas em telas maiores, 1 coluna em telas menores */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo do Produto Individual */
+.produto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+}
+
+.produto h2 {
+    color: #a0522d; /* Marrom mais escuro */
+    margin: 10px 0;
+    font-size: 1.4em;
+}
+
+.preco {
+    font-size: 1.8em;
+    color: #228b22; /* Verde forte para o preço */
+    font-weight: bold;
+    margin: 10px 0 15px;
+}
+
+.descricao {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Rodapé de Contato */
+.contato {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contato h2 {
+    color: #ffcc00; /* Amarelo para destaque */
+    margin-top: 0;
+}
+
+.contato a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
